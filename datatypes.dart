@@ -47,6 +47,12 @@ dynamic
 
   dynamic_name = 56;
   print(dynamic_name);
+
+  // const is not a data type
+  const constant = 2345;
+  print(constant.runtimeType);
+  // constant = 71412;
+  // print(constant);
   for (int i = 0; i < 2; i++) {
     print("\n");
   }
