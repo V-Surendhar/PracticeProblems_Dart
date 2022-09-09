@@ -1,1 +1,4 @@
-void main() {}
+void main() {
+  var a = 10;
+  print(a.runtimeType);
+}
