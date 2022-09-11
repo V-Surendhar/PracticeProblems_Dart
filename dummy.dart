@@ -1,4 +1,4 @@
 void main() {
-  var a = 10;
-  print(a.runtimeType);
+  dynamic a = 0;
+  print(a);
 }
